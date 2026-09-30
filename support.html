@@ -3,58 +3,72 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self' data:; font-src 'self'; base-uri 'none'; form-action 'none'">
   <meta name="referrer" content="no-referrer">
   <meta name="color-scheme" content="light dark">
   <title>Assistance · Support · Améa</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Cpath%20fill%3D%22%23C0362A%22%20d%3D%22M16%2028S3%2020.3%203%2011.5A6.5%206.5%200%200%201%2016%208a6.5%206.5%200%200%201%2013%203.5C29%2020.3%2016%2028%2016%2028z%22%2F%3E%3C%2Fsvg%3E">
+  <link rel="preload" href="fonts/Fredoka_600SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Nunito_400Regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="style.css">
 </head>
 <body id="haut">
-  <header class="entete">
-    <div class="colonne">
-      <a class="marque" href="index.html"><span class="coeur" aria-hidden="true"></span>Améa</a>
-      <h1>Assistance<span class="sous" lang="en">Support</span></h1>
+  <header class="entete olive">
+    <div class="cadre">
+      <div class="barre">
+        <a class="marque" href="index.html">Améa</a>
+      </div>
+      <div class="titre-doc">
+        <span class="pastille"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg></span>
+        <h1>Assistance<span class="sous" lang="en">Support</span></h1>
+      </div>
+      <p class="meta">Sur vos données, votre compte ou l’app : nous lisons chaque message.<br><span lang="en">About your data, your account or the app: we read every message.</span></p>
     </div>
   </header>
-  <main class="colonne">
-    <p class="action"><a class="bouton" href="mailto:contact@agencesoleje.com">contact@agencesoleje.com</a></p>
+  <main class="cadre accueil-corps">
+    <p class="action"><a class="bouton" href="mailto:contact@agencesoleje.com"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>contact@agencesoleje.com</a></p>
     <ul class="grille">
       <li class="carte" lang="fr">
-        <h2>Français</h2>
+        <h2><span class="code">FR</span>Français</h2>
         <p>Une question sur ces textes ou sur vos données ? Écrivez-nous : <a href="mailto:contact@agencesoleje.com">contact@agencesoleje.com</a></p>
         <p>Supprimer votre compte : dans l’app, Mon compte › Supprimer mon compte. Toutes vos données sont effacées.</p>
+        <p class="liens-doc"><a href="fr/confidentialite.html">Politique de confidentialité</a><a href="fr/cgu.html">Conditions générales d’utilisation</a></p>
       </li>
       <li class="carte" lang="en">
-        <h2>English</h2>
+        <h2><span class="code">EN</span>English</h2>
         <p>A question about these terms or your data? Write to us: <a href="mailto:contact@agencesoleje.com">contact@agencesoleje.com</a></p>
         <p>Delete your account: in the app, My account › Delete my account. All your data is erased.</p>
+        <p class="liens-doc"><a href="en/privacy.html">Privacy Policy</a><a href="en/terms.html">Terms of Use</a></p>
       </li>
       <li class="carte" lang="es">
-        <h2>Español</h2>
+        <h2><span class="code">ES</span>Español</h2>
         <p>¿Una pregunta sobre estos textos o sobre sus datos? Escríbanos: <a href="mailto:contact@agencesoleje.com">contact@agencesoleje.com</a></p>
         <p>Eliminar su cuenta: en la app, Mi cuenta › Eliminar mi cuenta. Se borran todos sus datos.</p>
+        <p class="liens-doc"><a href="es/privacy.html">Política de privacidad</a><a href="es/terms.html">Condiciones de uso</a></p>
       </li>
       <li class="carte" lang="it">
-        <h2>Italiano</h2>
+        <h2><span class="code">IT</span>Italiano</h2>
         <p>Una domanda su questi testi o sui vostri dati? Scriveteci: <a href="mailto:contact@agencesoleje.com">contact@agencesoleje.com</a></p>
         <p>Eliminare l’account: nell’app, Il mio account › Elimina il mio account. Tutti i dati vengono cancellati.</p>
+        <p class="liens-doc"><a href="it/privacy.html">Informativa sulla privacy</a><a href="it/terms.html">Condizioni d’uso</a></p>
       </li>
       <li class="carte" lang="de">
-        <h2>Deutsch</h2>
+        <h2><span class="code">DE</span>Deutsch</h2>
         <p>Eine Frage zu diesen Texten oder zu Ihren Daten? Schreiben Sie uns: <a href="mailto:contact@agencesoleje.com">contact@agencesoleje.com</a></p>
         <p>Konto löschen: in der App, Mein Konto › Mein Konto löschen. Alle Ihre Daten werden gelöscht.</p>
+        <p class="liens-doc"><a href="de/privacy.html">Datenschutzerklärung</a><a href="de/terms.html">Nutzungsbedingungen</a></p>
       </li>
       <li class="carte" lang="pt">
-        <h2>Português</h2>
+        <h2><span class="code">PT</span>Português</h2>
         <p>Uma pergunta sobre estes textos ou sobre os seus dados? Escreva-nos: <a href="mailto:contact@agencesoleje.com">contact@agencesoleje.com</a></p>
         <p>Eliminar a sua conta: na app, A minha conta › Eliminar a minha conta. Todos os dados são apagados.</p>
+        <p class="liens-doc"><a href="pt/privacy.html">Política de privacidade</a><a href="pt/terms.html">Termos de utilização</a></p>
       </li>
     </ul>
   </main>
   <footer class="pied">
-    <p>Une question sur ces textes ou sur vos données ? Écrivez-nous : <a href="mailto:contact@agencesoleje.com">contact@agencesoleje.com</a></p>
-    <p>Éditeur : Agence Soleje · <a href="support.html">Assistance</a> · <a href="index.html">Informations légales</a></p>
+    <p>Améa est édité par Agence Soleje · <a href="mailto:contact@agencesoleje.com">contact</a></p>
+    <p><a href="index.html">Informations légales</a> · <a href="support.html">Assistance</a></p>
   </footer>
 </body>
 </html>

@@ -19,3 +19,5 @@ GitHub Pages depuis la branche `main`. L'historique git garde chaque version
 publiée.
 
 Site statique sans script, sans cookie, sans traceur, sans ressource externe.
+Polices Fredoka et Nunito embarquées (`fonts/`, SIL Open Font License 1.1 —
+voir `fonts/OFL-*.txt`) ; icônes Lucide (licence ISC) écrites dans les pages.

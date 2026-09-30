@@ -3,11 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self' data:; font-src 'self'; base-uri 'none'; form-action 'none'">
   <meta name="referrer" content="no-referrer">
   <meta name="color-scheme" content="light dark">
   <title>Conditions générales d’utilisation · Améa</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Cpath%20fill%3D%22%23C0362A%22%20d%3D%22M16%2028S3%2020.3%203%2011.5A6.5%206.5%200%200%201%2016%208a6.5%206.5%200%200%201%2013%203.5C29%2020.3%2016%2028%2016%2028z%22%2F%3E%3C%2Fsvg%3E">
+  <link rel="preload" href="../fonts/Fredoka_600SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../fonts/Nunito_400Regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="../style.css">
   <link rel="canonical" href="https://agence-soleje.github.io/amea-legal/fr/cgu.html">
   <link rel="alternate" hreflang="fr" href="https://agence-soleje.github.io/amea-legal/fr/cgu.html">
@@ -18,78 +20,107 @@
   <link rel="alternate" hreflang="pt" href="https://agence-soleje.github.io/amea-legal/pt/terms.html">
 </head>
 <body id="haut">
-  <header class="entete">
-    <div class="colonne">
-      <a class="marque" href="../index.html"><span class="coeur" aria-hidden="true"></span>Améa</a>
-      <nav class="langues" aria-label="Langue">
-        <a aria-current="page" hreflang="fr" lang="fr" href="../fr/cgu.html">Français</a>
-        <a hreflang="en" lang="en" href="../en/terms.html">English</a>
-        <a hreflang="es" lang="es" href="../es/terms.html">Español</a>
-        <a hreflang="it" lang="it" href="../it/terms.html">Italiano</a>
-        <a hreflang="de" lang="de" href="../de/terms.html">Deutsch</a>
-        <a hreflang="pt" lang="pt" href="../pt/terms.html">Português</a>
+  <header class="entete cuivre">
+    <div class="cadre">
+      <div class="barre">
+        <a class="marque" href="../index.html">Améa</a>
+        <nav class="langues" aria-label="Langue">
+        <a aria-current="page" hreflang="fr" lang="fr" href="../fr/cgu.html" title="Français">FR</a>
+        <a hreflang="en" lang="en" href="../en/terms.html" title="English">EN</a>
+        <a hreflang="es" lang="es" href="../es/terms.html" title="Español">ES</a>
+        <a hreflang="it" lang="it" href="../it/terms.html" title="Italiano">IT</a>
+        <a hreflang="de" lang="de" href="../de/terms.html" title="Deutsch">DE</a>
+        <a hreflang="pt" lang="pt" href="../pt/terms.html" title="Português">PT</a>
       </nav>
-      <h1>Conditions générales d’utilisation</h1>
+      </div>
+      <a class="retour-accueil" href="../index.html"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>Informations légales</a>
+      <div class="titre-doc">
+        <span class="pastille"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg></span>
+        <h1>Conditions générales d’utilisation</h1>
+      </div>
       <p class="meta">Version 1.3 · en vigueur depuis le <time datetime="2026-09-26">26 septembre 2026</time></p>
-      <p class="autre"><a href="../fr/confidentialite.html">Politique de confidentialité →</a></p>
     </div>
   </header>
-  <main class="colonne">
-    <nav class="sommaire" aria-label="Sommaire">
-      <h2>Sommaire</h2>
-      <ol>
-        <li><a href="#s1">Présentation</a></li>
-        <li><a href="#s2">Acceptation</a></li>
-        <li><a href="#s3">Accès</a></li>
-        <li><a href="#s4">Services</a></li>
-        <li><a href="#s5">Paiement</a></li>
-        <li><a href="#s6">Propriété intellectuelle</a></li>
-        <li><a href="#s7">Droit applicable</a></li>
-        <li><a href="#s8">Contenus et comportements</a></li>
-      </ol>
-    </nav>
-    <article class="texte">
-      <section id="s1">
-        <h2><span class="num">1.</span> Présentation</h2>
-        <p>Améa est une application mobile dédiée aux couples, éditée par Agence Soleje. Contact : <a href="mailto:contact@agencesoleje.com">contact@agencesoleje.com</a></p>
-      </section>
-      <section id="s2">
-        <h2><span class="num">2.</span> Acceptation</h2>
-        <p>L&#39;utilisation de l&#39;Application implique l&#39;acceptation pleine et entière des présentes CGU.</p>
-      </section>
-      <section id="s3">
-        <h2><span class="num">3.</span> Accès</h2>
-        <p>L&#39;Application est accessible aux personnes âgées de 18 ans et plus.</p>
-      </section>
-      <section id="s4">
-        <h2><span class="num">4.</span> Services</h2>
-        <p>Version gratuite : les outils du couple (dates et agenda, listes partagées, humeurs et check-ins, question du jour, quêtes, défi de la semaine à découvrir) et une sélection de contenus : une partie des idées de dates, des thèmes de questions à se poser (quelques cartes par jour), des thèmes de jeux et du Labo, et quelques lettres des dates alphabétiques. L’album photo, la carte des rêves et les dates anniversaires y ont un nombre d’éléments limité ; les limites de l’album et de la carte des rêves augmentent avec le niveau du couple. Version Premium Duo : tous les contenus (idées de dates, thèmes de questions avec davantage de cartes par jour, jeux et défis de jeu, sujets et exercices du Labo, toutes les lettres des dates alphabétiques), album photo, carte des rêves et dates anniversaires sans limite, planificateur de date par IA, bilan du mois et validation du défi de la semaine. 7,99 €/mois ou 49,99 €/an, un seul abonnement pour le couple, qui donne un accès complet aux deux partenaires. Prix TTC en France ; le prix affiché par l’App Store ou Google Play au moment de l’achat fait foi.</p>
-      </section>
-      <section id="s5">
-        <h2><span class="num">5.</span> Paiement</h2>
-        <p>Paiements via App Store ou Google Play. Renouvellement automatique sauf résiliation.</p>
-      </section>
-      <section id="s6">
-        <h2><span class="num">6.</span> Propriété intellectuelle</h2>
-        <p>Tous les éléments de l&#39;Application sont la propriété exclusive d&#39;Agence Soleje.</p>
-      </section>
-      <section id="s7">
-        <h2><span class="num">7.</span> Droit applicable</h2>
-        <p>CGU régies par le droit français. Juridiction compétente : tribunaux français.</p>
-      </section>
-      <section id="s8">
-        <h2><span class="num">8.</span> Contenus et comportements</h2>
-        <p>Vous êtes responsable des contenus que vous ajoutez dans Améa (photos, textes, réponses). Ils ne sont visibles que de votre couple, mais ils doivent respecter la loi.</p>
-        <p>Sont strictement interdits : tout contenu à caractère pédocriminel ou sexualisant des mineurs ; tout contenu illicite, notamment violent, haineux, discriminatoire, diffamatoire, portant atteinte à la vie privée ou au droit à l&#39;image d&#39;autrui, ou contrefaisant ; le harcèlement, les menaces et tout usage de l&#39;app pour nuire à autrui.</p>
-        <p>Agence Soleje peut retirer sans préavis tout contenu manifestement illicite qui lui est signalé ou dont elle a connaissance, et suspendre ou supprimer le compte concerné. Les contenus pédocriminels, et tout contenu dont la loi impose le signalement, sont signalés aux autorités compétentes (en France, notamment via la plateforme PHAROS).</p>
-        <p>Pour signaler un contenu ou un comportement : Mon compte › Signaler un problème, ou <a href="mailto:contact@agencesoleje.com">contact@agencesoleje.com</a>.</p>
-      </section>
-    </article>
-    <p class="retour"><a href="#haut">↑ Haut de page</a></p>
-  </main>
+  <div class="cadre lecture cuivre">
+    <details class="sommaire sommaire-mobile">
+      <summary><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 6h.01"/><path d="M3 12h.01"/><path d="M3 18h.01"/><path d="M8 6h13"/><path d="M8 12h13"/><path d="M8 18h13"/></svg><span>Sommaire</span><svg class="ico chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg></summary>
+      <nav aria-label="Sommaire">
+        <ol>
+          <li><a href="#s1">Présentation</a></li>
+          <li><a href="#s2">Acceptation</a></li>
+          <li><a href="#s3">Accès</a></li>
+          <li><a href="#s4">Services</a></li>
+          <li><a href="#s5">Paiement</a></li>
+          <li><a href="#s6">Propriété intellectuelle</a></li>
+          <li><a href="#s7">Droit applicable</a></li>
+          <li><a href="#s8">Contenus et comportements</a></li>
+        </ol>
+      </nav>
+    </details>
+    <aside class="sommaire sommaire-bureau">
+      <nav aria-label="Sommaire">
+        <p class="titre-sommaire"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 6h.01"/><path d="M3 12h.01"/><path d="M3 18h.01"/><path d="M8 6h13"/><path d="M8 12h13"/><path d="M8 18h13"/></svg>Sommaire</p>
+        <ol>
+          <li><a href="#s1">Présentation</a></li>
+          <li><a href="#s2">Acceptation</a></li>
+          <li><a href="#s3">Accès</a></li>
+          <li><a href="#s4">Services</a></li>
+          <li><a href="#s5">Paiement</a></li>
+          <li><a href="#s6">Propriété intellectuelle</a></li>
+          <li><a href="#s7">Droit applicable</a></li>
+          <li><a href="#s8">Contenus et comportements</a></li>
+        </ol>
+      </nav>
+    </aside>
+    <main class="colonne-texte">
+      <article class="texte">
+        <section id="s1">
+          <h2><span class="num">1</span>Présentation</h2>
+          <p>Améa est une application mobile dédiée aux couples, éditée par Agence Soleje. Contact : <a href="mailto:contact@agencesoleje.com">contact@agencesoleje.com</a></p>
+        </section>
+        <section id="s2">
+          <h2><span class="num">2</span>Acceptation</h2>
+          <p>L&#39;utilisation de l&#39;Application implique l&#39;acceptation pleine et entière des présentes CGU.</p>
+        </section>
+        <section id="s3">
+          <h2><span class="num">3</span>Accès</h2>
+          <p>L&#39;Application est accessible aux personnes âgées de 18 ans et plus.</p>
+        </section>
+        <section id="s4">
+          <h2><span class="num">4</span>Services</h2>
+          <p>Version gratuite : les outils du couple (dates et agenda, listes partagées, humeurs et check-ins, question du jour, quêtes, défi de la semaine à découvrir) et une sélection de contenus : une partie des idées de dates, des thèmes de questions à se poser (quelques cartes par jour), des thèmes de jeux et du Labo, et quelques lettres des dates alphabétiques. L’album photo, la carte des rêves et les dates anniversaires y ont un nombre d’éléments limité ; les limites de l’album et de la carte des rêves augmentent avec le niveau du couple. Version Premium Duo : tous les contenus (idées de dates, thèmes de questions avec davantage de cartes par jour, jeux et défis de jeu, sujets et exercices du Labo, toutes les lettres des dates alphabétiques), album photo, carte des rêves et dates anniversaires sans limite, planificateur de date par IA, bilan du mois et validation du défi de la semaine. 7,99 €/mois ou 49,99 €/an, un seul abonnement pour le couple, qui donne un accès complet aux deux partenaires. Prix TTC en France ; le prix affiché par l’App Store ou Google Play au moment de l’achat fait foi.</p>
+        </section>
+        <section id="s5">
+          <h2><span class="num">5</span>Paiement</h2>
+          <p>Paiements via App Store ou Google Play. Renouvellement automatique sauf résiliation.</p>
+        </section>
+        <section id="s6">
+          <h2><span class="num">6</span>Propriété intellectuelle</h2>
+          <p>Tous les éléments de l&#39;Application sont la propriété exclusive d&#39;Agence Soleje.</p>
+        </section>
+        <section id="s7">
+          <h2><span class="num">7</span>Droit applicable</h2>
+          <p>CGU régies par le droit français. Juridiction compétente : tribunaux français.</p>
+        </section>
+        <section id="s8">
+          <h2><span class="num">8</span>Contenus et comportements</h2>
+          <p>Vous êtes responsable des contenus que vous ajoutez dans Améa (photos, textes, réponses). Ils ne sont visibles que de votre couple, mais ils doivent respecter la loi.</p>
+          <p>Sont strictement interdits : tout contenu à caractère pédocriminel ou sexualisant des mineurs ; tout contenu illicite, notamment violent, haineux, discriminatoire, diffamatoire, portant atteinte à la vie privée ou au droit à l&#39;image d&#39;autrui, ou contrefaisant ; le harcèlement, les menaces et tout usage de l&#39;app pour nuire à autrui.</p>
+          <p>Agence Soleje peut retirer sans préavis tout contenu manifestement illicite qui lui est signalé ou dont elle a connaissance, et suspendre ou supprimer le compte concerné. Les contenus pédocriminels, et tout contenu dont la loi impose le signalement, sont signalés aux autorités compétentes (en France, notamment via la plateforme PHAROS).</p>
+          <p>Pour signaler un contenu ou un comportement : Mon compte › Signaler un problème, ou <a href="mailto:contact@agencesoleje.com">contact@agencesoleje.com</a>.</p>
+        </section>
+      </article>
+      <a class="suivant prune" href="../fr/confidentialite.html">
+        <span class="pastille"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></span>
+        <span class="suivant-texte"><span class="suivant-kicker">À lire aussi</span><span class="suivant-titre">Politique de confidentialité</span></span>
+        <svg class="ico action" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </a>
+      <p class="retour-haut"><a href="#haut"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m5 12 7-7 7 7"/><path d="M12 19V5"/></svg>Haut de page</a></p>
+    </main>
+  </div>
   <footer class="pied">
-    <p>Une question sur ces textes ou sur vos données ? Écrivez-nous : <a href="mailto:contact@agencesoleje.com">contact@agencesoleje.com</a></p>
-    <p>Éditeur : Agence Soleje · <a href="../support.html">Assistance</a> · <a href="../index.html">Informations légales</a></p>
+    <p>Améa est édité par Agence Soleje · <a href="mailto:contact@agencesoleje.com">contact</a></p>
+    <p><a href="../index.html">Informations légales</a> · <a href="../support.html">Assistance</a></p>
   </footer>
 </body>
 </html>

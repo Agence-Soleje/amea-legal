@@ -3,11 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self' data:; font-src 'self'; base-uri 'none'; form-action 'none'">
   <meta name="referrer" content="no-referrer">
   <meta name="color-scheme" content="light dark">
   <title>Politique de confidentialité · Améa</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Cpath%20fill%3D%22%23C0362A%22%20d%3D%22M16%2028S3%2020.3%203%2011.5A6.5%206.5%200%200%201%2016%208a6.5%206.5%200%200%201%2013%203.5C29%2020.3%2016%2028%2016%2028z%22%2F%3E%3C%2Fsvg%3E">
+  <link rel="preload" href="../fonts/Fredoka_600SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../fonts/Nunito_400Regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="../style.css">
   <link rel="canonical" href="https://agence-soleje.github.io/amea-legal/fr/confidentialite.html">
   <link rel="alternate" hreflang="fr" href="https://agence-soleje.github.io/amea-legal/fr/confidentialite.html">
@@ -18,132 +20,163 @@
   <link rel="alternate" hreflang="pt" href="https://agence-soleje.github.io/amea-legal/pt/privacy.html">
 </head>
 <body id="haut">
-  <header class="entete">
-    <div class="colonne">
-      <a class="marque" href="../index.html"><span class="coeur" aria-hidden="true"></span>Améa</a>
-      <nav class="langues" aria-label="Langue">
-        <a aria-current="page" hreflang="fr" lang="fr" href="../fr/confidentialite.html">Français</a>
-        <a hreflang="en" lang="en" href="../en/privacy.html">English</a>
-        <a hreflang="es" lang="es" href="../es/privacy.html">Español</a>
-        <a hreflang="it" lang="it" href="../it/privacy.html">Italiano</a>
-        <a hreflang="de" lang="de" href="../de/privacy.html">Deutsch</a>
-        <a hreflang="pt" lang="pt" href="../pt/privacy.html">Português</a>
+  <header class="entete prune">
+    <div class="cadre">
+      <div class="barre">
+        <a class="marque" href="../index.html">Améa</a>
+        <nav class="langues" aria-label="Langue">
+        <a aria-current="page" hreflang="fr" lang="fr" href="../fr/confidentialite.html" title="Français">FR</a>
+        <a hreflang="en" lang="en" href="../en/privacy.html" title="English">EN</a>
+        <a hreflang="es" lang="es" href="../es/privacy.html" title="Español">ES</a>
+        <a hreflang="it" lang="it" href="../it/privacy.html" title="Italiano">IT</a>
+        <a hreflang="de" lang="de" href="../de/privacy.html" title="Deutsch">DE</a>
+        <a hreflang="pt" lang="pt" href="../pt/privacy.html" title="Português">PT</a>
       </nav>
-      <h1>Politique de confidentialité</h1>
+      </div>
+      <a class="retour-accueil" href="../index.html"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>Informations légales</a>
+      <div class="titre-doc">
+        <span class="pastille"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></span>
+        <h1>Politique de confidentialité</h1>
+      </div>
       <p class="meta">Version 2.2 · en vigueur depuis le <time datetime="2026-09-26">26 septembre 2026</time></p>
-      <p class="autre"><a href="../fr/cgu.html">Conditions générales d’utilisation →</a></p>
     </div>
   </header>
-  <main class="colonne">
-    <nav class="sommaire" aria-label="Sommaire">
-      <h2>Sommaire</h2>
-      <ol>
-        <li><a href="#s1">Responsable du traitement</a></li>
-        <li><a href="#s2">Données collectées</a></li>
-        <li><a href="#s3">Finalités et bases légales</a></li>
-        <li><a href="#s4">Intelligence artificielle</a></li>
-        <li><a href="#s5">Prestataires et destinataires</a></li>
-        <li><a href="#s6">Transferts hors de l&#39;Union européenne</a></li>
-        <li><a href="#s7">Conservation</a></li>
-        <li><a href="#s8">Vos droits</a></li>
-        <li><a href="#s9">Sécurité</a></li>
-        <li><a href="#s10">Mineurs</a></li>
-      </ol>
-    </nav>
-    <article class="texte">
-      <section id="s1">
-        <h2><span class="num">1.</span> Responsable du traitement</h2>
-        <p>Améa est éditée par Agence Soleje, responsable du traitement de vos données. Contact pour toute question sur vos données : <a href="mailto:contact@agencesoleje.com">contact@agencesoleje.com</a>. Améa est réservée aux personnes de 18 ans et plus. Nous ne vendons jamais vos données, n&#39;affichons aucune publicité et n&#39;utilisons aucun outil de suivi publicitaire ni de mesure d&#39;audience.</p>
-      </section>
-      <section id="s2">
-        <h2><span class="num">2.</span> Données collectées</h2>
-        <p>Compte : adresse e-mail, mot de passe (chiffré, jamais lisible), prénom, surnom, date de naissance.</p>
-        <p>Profil de couple : date de début de relation, statut, situation de logement, date de mariage, enfants (prénoms et dates de naissance) si vous les indiquez.</p>
-        <p>Contenus du couple : dates prévues et réalisées, photos, légendes, réponses aux jeux, aux questions du jour et au Labo, humeurs et check-ins, listes partagées, rêves et épingles de la carte des rêves, anniversaires, défis, avatar.</p>
-        <p>Localisation : seulement si vous cochez « Ajouter le lieu » en envoyant une photo, ou si vous placez un rêve sur la carte.</p>
-        <p>Usage technique : version de l&#39;app, système et version du téléphone, date de dernière ouverture ; jeton de notification si vous les activez ; vos choix de consentement (intelligence artificielle, notifications).</p>
-        <p>Journal d&#39;erreurs : en cas de plantage, le message technique, l&#39;écran concerné et un identifiant d&#39;appareil tiré au hasard, sans lien avec votre compte ni aucun contenu.</p>
-        <p>Parrainage : le code partagé et l&#39;inscription qui en découle.</p>
-        <p>Abonnement : l&#39;état de l&#39;abonnement du couple (formule, échéance) ; le paiement lui-même est traité par Apple ou Google, nous ne voyons jamais vos coordonnées bancaires.</p>
-        <p>Journal d&#39;usage : quelques événements datés, sans aucun contenu — inscription, liaison et séparation du couple, première réponse à une question du jour, premier check-in, première date planifiée, ouverture de l&#39;app (une fois par jour), du paywall et d&#39;une notification, souscription Premium. Il sert à mesurer l&#39;activation et la fidélité, en chiffres agrégés.</p>
-      </section>
-      <section id="s3">
-        <h2><span class="num">3.</span> Finalités et bases légales</h2>
-        <p>Fournir l&#39;application et ses fonctions de couple (compte, profil, contenus, partage avec votre partenaire, abonnement) : exécution du contrat (CGU), article 6.1.b du RGPD.</p>
-        <p>Vérifier l&#39;âge minimum de 18 ans : exécution du contrat.</p>
-        <p>Fonctions d&#39;intelligence artificielle : votre consentement (article 6.1.a), recueilli avant le premier envoi et retirable à tout moment.</p>
-        <p>Lieu d&#39;une photo : votre consentement, donné photo par photo.</p>
-        <p>Notifications : votre consentement, donné dans les réglages de votre téléphone.</p>
-        <p>Suppression des comptes inactifs : l&#39;obligation de ne pas conserver les données plus longtemps que nécessaire (article 5.1.e du RGPD).</p>
-        <p>Journal d&#39;erreurs, informations techniques et assistance : notre intérêt légitime à assurer la sécurité et le bon fonctionnement du service (article 6.1.f).</p>
-        <p>Certaines réponses peuvent toucher à votre vie intime : vous choisissez librement d&#39;y répondre, elles ne sont visibles que de votre partenaire et leur contenu n&#39;est jamais transmis à un tiers.</p>
-        <p>Journal d&#39;usage : notre intérêt légitime à comprendre, en chiffres agrégés, ce qui aide les couples à utiliser Améa (article 6.1.f). Vous pouvez vous y opposer en écrivant à <a href="mailto:contact@agencesoleje.com">contact@agencesoleje.com</a>.</p>
-      </section>
-      <section id="s4">
-        <h2><span class="num">4.</span> Intelligence artificielle</h2>
-        <p>Deux fonctions s&#39;appuient sur OpenAI (OpenAI Ireland Ltd, avec des traitements aux États-Unis), uniquement si vous l&#39;avez accepté.</p>
-        <p>Le planificateur de date reçoit votre humeur, celle de votre partenaire (seulement si il ou elle a aussi accepté), la météo que vous indiquez, votre budget et la durée choisie, pour proposer un plan de date.</p>
-        <p>Les suggestions « Pour vous » reçoivent un profil de couple sans aucun nom : statut, années de relation, présence et nombre d&#39;enfants, situation de logement, scores de compatibilité par thème de jeu, nombre de dates, de check-ins et de questions du jour, seulement si vous avez accepté tous les deux.</p>
-        <p>Ne sont jamais transmis : votre nom, votre e-mail, vos photos, le texte de vos réponses et vos messages. Selon ses conditions d&#39;API, OpenAI n&#39;utilise pas ces données pour entraîner ses modèles et les conserve au plus 30 jours pour la prévention des abus. Vous pouvez retirer votre accord dans Mon compte › Intelligence artificielle : les deux fonctions sont alors désactivées.</p>
-      </section>
-      <section id="s5">
-        <h2><span class="num">5.</span> Prestataires et destinataires</h2>
-        <p>Vos contenus de couple ne sont visibles que de vous et de votre partenaire. Ils ne sont jamais publics.</p>
-        <p>Nos prestataires, qui traitent les données pour notre compte et selon nos instructions :</p>
-        <p>• Supabase (hébergement de la base, des photos et de l&#39;authentification, dont l&#39;envoi des e-mails de compte) — serveurs à Francfort, Allemagne ;</p>
-        <p>• OpenAI (fonctions d&#39;intelligence artificielle, voir ci-dessus) ;</p>
-        <p>• Expo (acheminement des notifications : jeton de notification et texte de la notification), qui passe par Apple (APNs) et Google (FCM) ;</p>
-        <p>• Brevo (France, données hébergées dans l&#39;Union européenne) : envoi de l&#39;e-mail qui vous prévient avant la suppression d&#39;un compte inactif (adresse e-mail, prénom, langue) ;</p>
-        <p>• RevenueCat (gestion des abonnements : identifiant du couple et reçus d&#39;achat transmis par Apple ou Google) ;</p>
-        <p>• Apple et Google (distribution de l&#39;app, paiement des abonnements, notifications) ;</p>
-        <p>• OpenStreetMap / Nominatim (recherche d&#39;un lieu sur la carte des rêves : le texte recherché ou le point touché, envoyé depuis votre téléphone) ;</p>
-        <p>• Apple Plans (iPhone) et Google Maps (Android) pour l&#39;affichage des cartes ;</p>
-        <p>• Pexels et Unsplash, qui hébergent certaines images d&#39;illustration : en les affichant, votre téléphone contacte leurs serveurs, qui voient votre adresse IP.</p>
-        <p>Nous ne communiquons vos données à aucune autre personne, sauf obligation légale.</p>
-      </section>
-      <section id="s6">
-        <h2><span class="num">6.</span> Transferts hors de l&#39;Union européenne</h2>
-        <p>La base de données et les photos sont hébergées dans l&#39;Union européenne (AWS, Francfort). Quand des données quittent l&#39;Union européenne, le transfert est encadré ainsi :</p>
-        <p>• OpenAI Ireland Ltd (Irlande) : transferts vers les États-Unis encadrés par les clauses contractuelles types de la Commission européenne ;</p>
-        <p>• Expo (650 Industries, Inc., États-Unis) : cadre de protection des données UE–États-Unis (Data Privacy Framework, adhésion active) et clauses contractuelles types ;</p>
-        <p>• RevenueCat, Inc. (États-Unis) : clauses contractuelles types ;</p>
-        <p>• Apple Distribution International Ltd (Irlande), transferts vers Apple Inc. (États-Unis) : clauses contractuelles types ;</p>
-        <p>• Google Ireland Limited et Google LLC : Data Privacy Framework (adhésion active) et clauses contractuelles types ;</p>
-        <p>• Supabase Pte. Ltd (Singapour) et ses sous-traitants, pour d&#39;éventuels accès hors de l&#39;UE (assistance, exploitation) : clauses contractuelles types ;</p>
-        <p>• Brevo (France) : données hébergées dans l&#39;UE ; ses propres sous-traitants hors de l&#39;UE sont encadrés par le Data Privacy Framework ou des clauses contractuelles types ;</p>
-        <p>• Pexels (Canva Germany GmbH, Allemagne) : établi dans l&#39;UE ;</p>
-        <p>• Unsplash Inc. (Canada) : décision d&#39;adéquation de la Commission européenne pour le Canada ;</p>
-        <p>• OpenStreetMap Foundation (Royaume-Uni) : décision d&#39;adéquation de la Commission européenne pour le Royaume-Uni.</p>
-        <p>Vous pouvez obtenir une copie des garanties applicables en écrivant à <a href="mailto:contact@agencesoleje.com">contact@agencesoleje.com</a>.</p>
-      </section>
-      <section id="s7">
-        <h2><span class="num">7.</span> Conservation</h2>
-        <p>Vos données sont conservées tant que votre compte existe. Un compte qui n&#39;a pas été ouvert pendant 2 ans est supprimé, exactement comme une suppression que vous auriez demandée ; un e-mail vous prévient 30 jours avant, et il suffit d&#39;ouvrir l&#39;app pour garder votre compte. La suppression du compte (Mon compte › Supprimer mon compte) est immédiate et définitive : il n&#39;y a ni délai ni retour possible. Sont effacés sur-le-champ votre compte, votre profil, votre avatar et vos données personnelles (réponses aux jeux, aux questions du jour et au Labo, humeurs, check-ins, préférences de notification), ainsi que les photos que vous avez ajoutées aux dates, qui disparaissent aussi pour votre partenaire. Si vous étiez en couple, votre partenaire garde le couple et ce que vous avez construit ensemble : les dates (y compris celles que vous avez créées, qui n&#39;affichent plus votre nom), les listes, les rêves, les défis et la progression. Si vous étiez seul ou seule dans le couple, le couple entier et toutes ses photos sont effacés.</p>
-        <p>Autres durées : journal d&#39;erreurs, 90 jours ; informations techniques (version, dernière ouverture), remplacées à chaque ouverture et effacées avec le compte ; données transmises à OpenAI, au plus 30 jours chez OpenAI ; journal d&#39;administration, qui ne contient que l&#39;identifiant du compte et la nature de l&#39;action (jamais vos contenus), conservé 3 ans, y compris après la suppression du compte, pour la sécurité du service ; sauvegardes automatiques de la base, effacées au fil de leur rotation par notre hébergeur.</p>
-        <p>Un abonnement souscrit sur l&#39;App Store ou Google Play n&#39;est pas résilié par la suppression : il se résilie dans les réglages du store.</p>
-        <p>Journal d&#39;usage : 13 mois, puis effacement automatique ; effacé aussi avec le compte.</p>
-      </section>
-      <section id="s8">
-        <h2><span class="num">8.</span> Vos droits</h2>
-        <p>Vous disposez d&#39;un droit d&#39;accès, de rectification, d&#39;effacement, de limitation, d&#39;opposition et de portabilité de vos données, ainsi que du droit de retirer à tout moment un consentement donné, sans que cela remette en cause ce qui a été fait avant.</p>
-        <p>Dans l&#39;app : modifier votre profil dans Mon compte ; supprimer votre compte dans Mon compte › Supprimer mon compte ; retirer votre accord pour l&#39;intelligence artificielle dans Mon compte › Intelligence artificielle ; gérer les notifications dans Mon compte et dans les réglages du téléphone.</p>
-        <p>Pour toute autre demande : <a href="mailto:contact@agencesoleje.com">contact@agencesoleje.com</a>. Nous répondons sous 30 jours.</p>
-        <p>Vous pouvez aussi introduire une réclamation auprès de la CNIL (www.cnil.fr).</p>
-      </section>
-      <section id="s9">
-        <h2><span class="num">9.</span> Sécurité</h2>
-        <p>Les échanges entre l&#39;app et nos serveurs sont chiffrés (HTTPS/TLS). Les photos sont stockées dans des espaces privés, accessibles seulement à votre couple par des liens temporaires. L&#39;accès aux données est limité par des règles de sécurité en base : chaque couple ne voit que ses propres contenus. Les données et les photos sont en outre chiffrées au repos par notre hébergeur, Supabase.</p>
-      </section>
-      <section id="s10">
-        <h2><span class="num">10.</span> Mineurs</h2>
-        <p>Améa est réservée aux personnes de 18 ans et plus : l&#39;âge est vérifié à l&#39;inscription. Les prénoms et dates de naissance de vos enfants, si vous choisissez de les indiquer, ne servent qu&#39;à votre profil de couple ; ils ne sont transmis à aucun prestataire, OpenAI compris (seuls la présence et le nombre d&#39;enfants peuvent l&#39;être, avec votre accord).</p>
-      </section>
-    </article>
-    <p class="retour"><a href="#haut">↑ Haut de page</a></p>
-  </main>
+  <div class="cadre lecture prune">
+    <details class="sommaire sommaire-mobile">
+      <summary><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 6h.01"/><path d="M3 12h.01"/><path d="M3 18h.01"/><path d="M8 6h13"/><path d="M8 12h13"/><path d="M8 18h13"/></svg><span>Sommaire</span><svg class="ico chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg></summary>
+      <nav aria-label="Sommaire">
+        <ol>
+          <li><a href="#s1">Responsable du traitement</a></li>
+          <li><a href="#s2">Données collectées</a></li>
+          <li><a href="#s3">Finalités et bases légales</a></li>
+          <li><a href="#s4">Intelligence artificielle</a></li>
+          <li><a href="#s5">Prestataires et destinataires</a></li>
+          <li><a href="#s6">Transferts hors de l&#39;Union européenne</a></li>
+          <li><a href="#s7">Conservation</a></li>
+          <li><a href="#s8">Vos droits</a></li>
+          <li><a href="#s9">Sécurité</a></li>
+          <li><a href="#s10">Mineurs</a></li>
+        </ol>
+      </nav>
+    </details>
+    <aside class="sommaire sommaire-bureau">
+      <nav aria-label="Sommaire">
+        <p class="titre-sommaire"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 6h.01"/><path d="M3 12h.01"/><path d="M3 18h.01"/><path d="M8 6h13"/><path d="M8 12h13"/><path d="M8 18h13"/></svg>Sommaire</p>
+        <ol>
+          <li><a href="#s1">Responsable du traitement</a></li>
+          <li><a href="#s2">Données collectées</a></li>
+          <li><a href="#s3">Finalités et bases légales</a></li>
+          <li><a href="#s4">Intelligence artificielle</a></li>
+          <li><a href="#s5">Prestataires et destinataires</a></li>
+          <li><a href="#s6">Transferts hors de l&#39;Union européenne</a></li>
+          <li><a href="#s7">Conservation</a></li>
+          <li><a href="#s8">Vos droits</a></li>
+          <li><a href="#s9">Sécurité</a></li>
+          <li><a href="#s10">Mineurs</a></li>
+        </ol>
+      </nav>
+    </aside>
+    <main class="colonne-texte">
+      <article class="texte">
+        <section id="s1">
+          <h2><span class="num">1</span>Responsable du traitement</h2>
+          <p>Améa est éditée par Agence Soleje, responsable du traitement de vos données. Contact pour toute question sur vos données : <a href="mailto:contact@agencesoleje.com">contact@agencesoleje.com</a>. Améa est réservée aux personnes de 18 ans et plus. Nous ne vendons jamais vos données, n&#39;affichons aucune publicité et n&#39;utilisons aucun outil de suivi publicitaire ni de mesure d&#39;audience.</p>
+        </section>
+        <section id="s2">
+          <h2><span class="num">2</span>Données collectées</h2>
+          <p>Compte : adresse e-mail, mot de passe (chiffré, jamais lisible), prénom, surnom, date de naissance.</p>
+          <p>Profil de couple : date de début de relation, statut, situation de logement, date de mariage, enfants (prénoms et dates de naissance) si vous les indiquez.</p>
+          <p>Contenus du couple : dates prévues et réalisées, photos, légendes, réponses aux jeux, aux questions du jour et au Labo, humeurs et check-ins, listes partagées, rêves et épingles de la carte des rêves, anniversaires, défis, avatar.</p>
+          <p>Localisation : seulement si vous cochez « Ajouter le lieu » en envoyant une photo, ou si vous placez un rêve sur la carte.</p>
+          <p>Usage technique : version de l&#39;app, système et version du téléphone, date de dernière ouverture ; jeton de notification si vous les activez ; vos choix de consentement (intelligence artificielle, notifications).</p>
+          <p>Journal d&#39;erreurs : en cas de plantage, le message technique, l&#39;écran concerné et un identifiant d&#39;appareil tiré au hasard, sans lien avec votre compte ni aucun contenu.</p>
+          <p>Parrainage : le code partagé et l&#39;inscription qui en découle.</p>
+          <p>Abonnement : l&#39;état de l&#39;abonnement du couple (formule, échéance) ; le paiement lui-même est traité par Apple ou Google, nous ne voyons jamais vos coordonnées bancaires.</p>
+          <p>Journal d&#39;usage : quelques événements datés, sans aucun contenu — inscription, liaison et séparation du couple, première réponse à une question du jour, premier check-in, première date planifiée, ouverture de l&#39;app (une fois par jour), du paywall et d&#39;une notification, souscription Premium. Il sert à mesurer l&#39;activation et la fidélité, en chiffres agrégés.</p>
+        </section>
+        <section id="s3">
+          <h2><span class="num">3</span>Finalités et bases légales</h2>
+          <p>Fournir l&#39;application et ses fonctions de couple (compte, profil, contenus, partage avec votre partenaire, abonnement) : exécution du contrat (CGU), article 6.1.b du RGPD.</p>
+          <p>Vérifier l&#39;âge minimum de 18 ans : exécution du contrat.</p>
+          <p>Fonctions d&#39;intelligence artificielle : votre consentement (article 6.1.a), recueilli avant le premier envoi et retirable à tout moment.</p>
+          <p>Lieu d&#39;une photo : votre consentement, donné photo par photo.</p>
+          <p>Notifications : votre consentement, donné dans les réglages de votre téléphone.</p>
+          <p>Suppression des comptes inactifs : l&#39;obligation de ne pas conserver les données plus longtemps que nécessaire (article 5.1.e du RGPD).</p>
+          <p>Journal d&#39;erreurs, informations techniques et assistance : notre intérêt légitime à assurer la sécurité et le bon fonctionnement du service (article 6.1.f).</p>
+          <p>Certaines réponses peuvent toucher à votre vie intime : vous choisissez librement d&#39;y répondre, elles ne sont visibles que de votre partenaire et leur contenu n&#39;est jamais transmis à un tiers.</p>
+          <p>Journal d&#39;usage : notre intérêt légitime à comprendre, en chiffres agrégés, ce qui aide les couples à utiliser Améa (article 6.1.f). Vous pouvez vous y opposer en écrivant à <a href="mailto:contact@agencesoleje.com">contact@agencesoleje.com</a>.</p>
+        </section>
+        <section id="s4">
+          <h2><span class="num">4</span>Intelligence artificielle</h2>
+          <p>Deux fonctions s&#39;appuient sur OpenAI (OpenAI Ireland Ltd, avec des traitements aux États-Unis), uniquement si vous l&#39;avez accepté.</p>
+          <p>Le planificateur de date reçoit votre humeur, celle de votre partenaire (seulement si il ou elle a aussi accepté), la météo que vous indiquez, votre budget et la durée choisie, pour proposer un plan de date.</p>
+          <p>Les suggestions « Pour vous » reçoivent un profil de couple sans aucun nom : statut, années de relation, présence et nombre d&#39;enfants, situation de logement, scores de compatibilité par thème de jeu, nombre de dates, de check-ins et de questions du jour, seulement si vous avez accepté tous les deux.</p>
+          <p>Ne sont jamais transmis : votre nom, votre e-mail, vos photos, le texte de vos réponses et vos messages. Selon ses conditions d&#39;API, OpenAI n&#39;utilise pas ces données pour entraîner ses modèles et les conserve au plus 30 jours pour la prévention des abus. Vous pouvez retirer votre accord dans Mon compte › Intelligence artificielle : les deux fonctions sont alors désactivées.</p>
+        </section>
+        <section id="s5">
+          <h2><span class="num">5</span>Prestataires et destinataires</h2>
+          <p>Vos contenus de couple ne sont visibles que de vous et de votre partenaire. Ils ne sont jamais publics.</p>
+          <p>Nos prestataires, qui traitent les données pour notre compte et selon nos instructions :</p>
+          <p>• Supabase (hébergement de la base, des photos et de l&#39;authentification, dont l&#39;envoi des e-mails de compte) — serveurs à Francfort, Allemagne ;</p>
+          <p>• OpenAI (fonctions d&#39;intelligence artificielle, voir ci-dessus) ;</p>
+          <p>• Expo (acheminement des notifications : jeton de notification et texte de la notification), qui passe par Apple (APNs) et Google (FCM) ;</p>
+          <p>• Brevo (France, données hébergées dans l&#39;Union européenne) : envoi de l&#39;e-mail qui vous prévient avant la suppression d&#39;un compte inactif (adresse e-mail, prénom, langue) ;</p>
+          <p>• RevenueCat (gestion des abonnements : identifiant du couple et reçus d&#39;achat transmis par Apple ou Google) ;</p>
+          <p>• Apple et Google (distribution de l&#39;app, paiement des abonnements, notifications) ;</p>
+          <p>• OpenStreetMap / Nominatim (recherche d&#39;un lieu sur la carte des rêves : le texte recherché ou le point touché, envoyé depuis votre téléphone) ;</p>
+          <p>• Apple Plans (iPhone) et Google Maps (Android) pour l&#39;affichage des cartes ;</p>
+          <p>• Pexels et Unsplash, qui hébergent certaines images d&#39;illustration : en les affichant, votre téléphone contacte leurs serveurs, qui voient votre adresse IP.</p>
+          <p>Nous ne communiquons vos données à aucune autre personne, sauf obligation légale.</p>
+        </section>
+        <section id="s6">
+          <h2><span class="num">6</span>Transferts hors de l&#39;Union européenne</h2>
+          <p>La base de données et les photos sont hébergées dans l&#39;Union européenne (AWS, Francfort). Quand des données quittent l&#39;Union européenne, le transfert est encadré ainsi :</p>
+          <p>• OpenAI Ireland Ltd (Irlande) : transferts vers les États-Unis encadrés par les clauses contractuelles types de la Commission européenne ;</p>
+          <p>• Expo (650 Industries, Inc., États-Unis) : cadre de protection des données UE–États-Unis (Data Privacy Framework, adhésion active) et clauses contractuelles types ;</p>
+          <p>• RevenueCat, Inc. (États-Unis) : clauses contractuelles types ;</p>
+          <p>• Apple Distribution International Ltd (Irlande), transferts vers Apple Inc. (États-Unis) : clauses contractuelles types ;</p>
+          <p>• Google Ireland Limited et Google LLC : Data Privacy Framework (adhésion active) et clauses contractuelles types ;</p>
+          <p>• Supabase Pte. Ltd (Singapour) et ses sous-traitants, pour d&#39;éventuels accès hors de l&#39;UE (assistance, exploitation) : clauses contractuelles types ;</p>
+          <p>• Brevo (France) : données hébergées dans l&#39;UE ; ses propres sous-traitants hors de l&#39;UE sont encadrés par le Data Privacy Framework ou des clauses contractuelles types ;</p>
+          <p>• Pexels (Canva Germany GmbH, Allemagne) : établi dans l&#39;UE ;</p>
+          <p>• Unsplash Inc. (Canada) : décision d&#39;adéquation de la Commission européenne pour le Canada ;</p>
+          <p>• OpenStreetMap Foundation (Royaume-Uni) : décision d&#39;adéquation de la Commission européenne pour le Royaume-Uni.</p>
+          <p>Vous pouvez obtenir une copie des garanties applicables en écrivant à <a href="mailto:contact@agencesoleje.com">contact@agencesoleje.com</a>.</p>
+        </section>
+        <section id="s7">
+          <h2><span class="num">7</span>Conservation</h2>
+          <p>Vos données sont conservées tant que votre compte existe. Un compte qui n&#39;a pas été ouvert pendant 2 ans est supprimé, exactement comme une suppression que vous auriez demandée ; un e-mail vous prévient 30 jours avant, et il suffit d&#39;ouvrir l&#39;app pour garder votre compte. La suppression du compte (Mon compte › Supprimer mon compte) est immédiate et définitive : il n&#39;y a ni délai ni retour possible. Sont effacés sur-le-champ votre compte, votre profil, votre avatar et vos données personnelles (réponses aux jeux, aux questions du jour et au Labo, humeurs, check-ins, préférences de notification), ainsi que les photos que vous avez ajoutées aux dates, qui disparaissent aussi pour votre partenaire. Si vous étiez en couple, votre partenaire garde le couple et ce que vous avez construit ensemble : les dates (y compris celles que vous avez créées, qui n&#39;affichent plus votre nom), les listes, les rêves, les défis et la progression. Si vous étiez seul ou seule dans le couple, le couple entier et toutes ses photos sont effacés.</p>
+          <p>Autres durées : journal d&#39;erreurs, 90 jours ; informations techniques (version, dernière ouverture), remplacées à chaque ouverture et effacées avec le compte ; données transmises à OpenAI, au plus 30 jours chez OpenAI ; journal d&#39;administration, qui ne contient que l&#39;identifiant du compte et la nature de l&#39;action (jamais vos contenus), conservé 3 ans, y compris après la suppression du compte, pour la sécurité du service ; sauvegardes automatiques de la base, effacées au fil de leur rotation par notre hébergeur.</p>
+          <p>Un abonnement souscrit sur l&#39;App Store ou Google Play n&#39;est pas résilié par la suppression : il se résilie dans les réglages du store.</p>
+          <p>Journal d&#39;usage : 13 mois, puis effacement automatique ; effacé aussi avec le compte.</p>
+        </section>
+        <section id="s8">
+          <h2><span class="num">8</span>Vos droits</h2>
+          <p>Vous disposez d&#39;un droit d&#39;accès, de rectification, d&#39;effacement, de limitation, d&#39;opposition et de portabilité de vos données, ainsi que du droit de retirer à tout moment un consentement donné, sans que cela remette en cause ce qui a été fait avant.</p>
+          <p>Dans l&#39;app : modifier votre profil dans Mon compte ; supprimer votre compte dans Mon compte › Supprimer mon compte ; retirer votre accord pour l&#39;intelligence artificielle dans Mon compte › Intelligence artificielle ; gérer les notifications dans Mon compte et dans les réglages du téléphone.</p>
+          <p>Pour toute autre demande : <a href="mailto:contact@agencesoleje.com">contact@agencesoleje.com</a>. Nous répondons sous 30 jours.</p>
+          <p>Vous pouvez aussi introduire une réclamation auprès de la CNIL (www.cnil.fr).</p>
+        </section>
+        <section id="s9">
+          <h2><span class="num">9</span>Sécurité</h2>
+          <p>Les échanges entre l&#39;app et nos serveurs sont chiffrés (HTTPS/TLS). Les photos sont stockées dans des espaces privés, accessibles seulement à votre couple par des liens temporaires. L&#39;accès aux données est limité par des règles de sécurité en base : chaque couple ne voit que ses propres contenus. Les données et les photos sont en outre chiffrées au repos par notre hébergeur, Supabase.</p>
+        </section>
+        <section id="s10">
+          <h2><span class="num">10</span>Mineurs</h2>
+          <p>Améa est réservée aux personnes de 18 ans et plus : l&#39;âge est vérifié à l&#39;inscription. Les prénoms et dates de naissance de vos enfants, si vous choisissez de les indiquer, ne servent qu&#39;à votre profil de couple ; ils ne sont transmis à aucun prestataire, OpenAI compris (seuls la présence et le nombre d&#39;enfants peuvent l&#39;être, avec votre accord).</p>
+        </section>
+      </article>
+      <a class="suivant cuivre" href="../fr/cgu.html">
+        <span class="pastille"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg></span>
+        <span class="suivant-texte"><span class="suivant-kicker">À lire aussi</span><span class="suivant-titre">Conditions générales d’utilisation</span></span>
+        <svg class="ico action" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </a>
+      <p class="retour-haut"><a href="#haut"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m5 12 7-7 7 7"/><path d="M12 19V5"/></svg>Haut de page</a></p>
+    </main>
+  </div>
   <footer class="pied">
-    <p>Une question sur ces textes ou sur vos données ? Écrivez-nous : <a href="mailto:contact@agencesoleje.com">contact@agencesoleje.com</a></p>
-    <p>Éditeur : Agence Soleje · <a href="../support.html">Assistance</a> · <a href="../index.html">Informations légales</a></p>
+    <p>Améa est édité par Agence Soleje · <a href="mailto:contact@agencesoleje.com">contact</a></p>
+    <p><a href="../index.html">Informations légales</a> · <a href="../support.html">Assistance</a></p>
   </footer>
 </body>
 </html>
